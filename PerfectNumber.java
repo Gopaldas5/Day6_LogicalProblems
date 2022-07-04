@@ -7,9 +7,9 @@ public class PerfectNumber {
 
         int n;
         int sum = 0;
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter any integer you want to check:- ");
-        n = s.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any integer you want to check :-  ");
+        n = sc.nextInt();
         for(int i = 1; i < n; i++)
         {
             if(n % i == 0)
